@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    color: #333;
+    font-size: 16px;
+    background: url(/img/tile_bg.png) repeat;
+    overflow-x: hidden;
+}
+
+#course-title-container {
+    background: #fff;
+    text-align: center;
+    margin: 100px;
+    padding: 40px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 8px;
+    border-top: 8px solid #0caefa;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 24pt;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-color: #757575;
+    font-size: 18pt;
+}
+
+.paragraph {
+    font-family: Montserrat;
+    font-size: 12pt;
+    text-align: left;
+    /*text-indent: 40px;*/
+
+}
+
+.label {
+    color: #6e6e6e;
+    border-bottom: 1px dotted #6e6e6e;
+}
+
+.link {
+    color: #0caefa !important;
+}
+
+a {
+    text-decoration: none;
+    color: #0caefa;
+}
+
+.daily-module {
+    background: #fff;
+    text-align: left;
+    margin-left:20px;
+    margin-right:20px;
+    padding: 40px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 8px;
+    border-top: 8px solid #0caefa;
+    display: inline-block;
+}
+
+.module-title {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+.module-subtitle {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-color: #757575;
+    font-size: 12pt;
+}
+
+.modules-container {
+    display: inline-block;
+    margin-bottom: 200px;
+}
