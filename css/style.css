@@ -83,3 +83,8 @@ a {
     display: inline-block;
     margin-bottom: 200px;
 }
+
+#row-2 {
+    margin-left: 80px;
+    margin-top:-20px;
+}
