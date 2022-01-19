@@ -84,7 +84,11 @@ a {
     margin-bottom: 200px;
 }
 
-#row-2 {
-    margin-left: 80px;
+#row-2, #row-3 {
+    margin-left: 9.5vw;
     margin-top:-20px;
+}
+
+#row-1 {
+    margin-left: 4vw;
 }
