@@ -81,14 +81,37 @@ a {
 
 .modules-container {
     display: inline-block;
-    margin-bottom: 200px;
+    margin-bottom: 75px;
 }
 
-#row-2, #row-3 {
+#row-1, #row-2, #row-3, #row-4 {
     margin-left: 9.5vw;
     margin-top:-20px;
 }
 
-#row-1 {
-    margin-left: 4vw;
+@media only screen and (max-width: 1300px) {
+
+    .modules-container {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .daily-module {
+        margin-left: 25vw;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .daily-module {
+        margin-left: 15vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .daily-module {
+        margin-left: 5vw;
+    }
+
 }
